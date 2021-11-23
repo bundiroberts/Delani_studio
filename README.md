@@ -14,7 +14,7 @@ Delani_studio showcases who they are and what they do, through some projects dis
 
   Go to live server
 
-# LIVE LINK
+# Live link
   (                                      )
 
 # Languages used
@@ -32,7 +32,7 @@ Delani_studio showcases who they are and what they do, through some projects dis
 # Technology used
     Visual Studio Code
 
-# license
+# License
 
   MIT License
 
