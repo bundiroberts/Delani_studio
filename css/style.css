@@ -37,6 +37,7 @@
         text-align: center;
         padding: 3rem;
         color:blue;
+        font-weight: bold;
   } 
 
     .container {
@@ -79,18 +80,19 @@
    #work1 {
     background-image: url('../images/portfolio/work4.jpg');
     background-size: cover;
-    padding: 70px 5px;
-    max-width: 20%;
-    margin: 9px;
+    width:200px;
+    height:200px;
+    margin: 5px;
+
     
     
   } 
   #work2 {
     background-image: url('../images/portfolio/work3.jpg');
     background-size: cover;
-    padding: 70px 5px;
-    width: 20%;
-    margin:9px;
+    width:200px;
+    height:200px;
+    margin:5px;
     
     
     
@@ -98,52 +100,53 @@
   #work3 {
     background-image: url('../images/portfolio/work2.jpg');
     background-size: cover;
-    padding: 70px 5px;
-    max-width: 20%;
-    margin:9px;
+    width:200px;
+    height:200px;
+    margin:5px;
     
     
   }
   #work4 {
     background-image: url('../images/portfolio/work1.jpg');
     background-size: cover;
-    padding: 70px 5px;
-    max-width: 20%;
-    margin:9px;
+    width:200px;
+    height:200px;
+    margin:5px;
+    
     
     
   }
   #work5 {
     background-image: url('../images/portfolio/work5.jpg');
     background-size: cover;
-    padding: 70px 5px;
-    max-width: 20%;
-    margin:9px;
+    width:200px;
+    height:200px;
+    margin:5px;
     
   }
   #work6 {
     background-image: url('../images/portfolio/work6.jpg');
     background-size: cover;
-    padding: 70px 5px;
-    max-width: 20%;
-    margin:9px;
+    width:200px;
+    height:200px;
+    margin:5px;
     
     
   }
   #work7 {
     background-image: url('../images/portfolio/work7.jpg');
     background-size: cover;
-    padding: 70px 5px;
-    max-width: 20%;
-    margin:9px;
+    width:200px;
+    height:200px;
+    margin:5px;
     
   }
   #work8 {
     background-image: url('../images/portfolio/work8.jpg');
     background-size: cover;
-    padding: 70px 5px;
-    max-width: 20%;
-    margin:9px;
+    width:200px;
+    height:200px;
+    margin:5px;
      
 }
  
@@ -172,8 +175,11 @@
   #work8:hover {
     opacity:0.5;
   }
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+
+
+@media  screen and (max-width:1500px) {
+     .column-4,.container,{
+         width: 100%;
+          
+    }
 }
